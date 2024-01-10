@@ -1,0 +1,9 @@
+
+$colors-button: #0e6cff, #ff8700, #4caf50;
+
+@for $i from 1 through length($colors-button) {
+    $color: nth($colors-button, $i);
+    .button-#{$i} {
+        background-color: $color;
+    }
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+nav {
+  padding: 20px;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  width: 25%;
+  list-style: none;
+  justify-content: space-around;
+}
+nav ul li {
+  margin-left: 0;
+  margin-right: 0;
+  color: orange;
+}
+
+.button-1 {
+  background-color: #0e6cff;
+}
+
+.button-2 {
+  background-color: #ff8700;
+}
+
+.button-3 {
+  background-color: #4caf50;
+}/*# sourceMappingURL=main.css.map */

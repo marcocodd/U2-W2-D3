@@ -1,0 +1,16 @@
+nav {
+   padding: 20px;
+    background-color: black;
+    
+    ul {
+        display: flex;
+        width: 25%;
+     list-style: none;
+     justify-content: space-around;
+  
+      li {
+        margin-left: 0;
+        margin-right: 0;
+        color: orange;}
+      }
+    }
